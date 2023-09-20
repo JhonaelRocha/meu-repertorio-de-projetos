@@ -1,0 +1,29 @@
+<div class="container_unity-project-card">
+
+    <div class="unity-project-card_image">
+        <img src="{{image_1}}" alt="">
+        <img src="{{image_2}}" alt="">
+        <img src="{{image_3}}" alt="">
+        <img src="{{image_4}}" alt="">
+    </div>
+    <div class="unity-project-card_texto">
+        <h1>{{titulo}}</h1>
+        <p>{{texto}}</p>
+    </div>
+    <div class="unity-project-card_download" *ngIf="isDownload">
+        <ng-template [ngIf]="isDownload">
+            <button><a href="{{download_link}}">Download</a></button>
+        </ng-template>
+    </div>
+    <div class="unity-project-card_download" *ngIf="isGitHub">
+        <ng-template [ngIf]="isGitHub">
+            <button><a href="{{github_link}}">GitHub</a></button>
+        </ng-template>
+    </div>
+    <div class="status">
+        {{status}}
+    </div>
+    
+    
+
+</div>

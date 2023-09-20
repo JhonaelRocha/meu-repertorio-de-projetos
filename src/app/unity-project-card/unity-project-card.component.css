@@ -1,0 +1,56 @@
+.container_unity-project-card{
+    margin-top: 30px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container_unity-project-card > .unity-project-card_image{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 70%;
+    gap: 10px;
+}
+.container_unity-project-card > .unity-project-card_image > img{
+    width: 100%;
+    border-radius: 10px;
+}
+.container_unity-project-card > .unity-project-card_texto{
+    width: 40%;
+}
+.container_unity-project-card > .unity-project-card_texto > h1{
+    text-align: center;
+}
+.container_unity-project-card > .unity-project-card_texto{
+    text-align: justify;
+}
+.container_unity-project-card > .unity-project-card_download{
+    width: 150px;
+    height: 30px;
+    border: 1px solid rgb(197, 197, 197);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+button{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    
+}
+button > a{
+    text-decoration: none;
+    color: white;
+}
+.status{
+    margin-top: 10px;
+    color: red;
+}
+img:hover{
+    scale: 1.2;
+}
+.container_unity-project-card > .unity-project-card_download:hover{
+    scale: 1.05;
+}

@@ -1,0 +1,33 @@
+.container_project{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0;
+}
+.container_project > .project_image{
+    width: 500px;
+}
+.container_project > .project_image > img{
+    width: 100%;
+    border-radius: 10px;
+}
+.container_project > .project_content{
+    width: 400px;
+}
+.container_project > .project_content > h1{
+    text-align: center;
+}
+.container_project > .project_content > h1:hover{
+    scale: 1.05;
+}
+.container_project > .project_content > p{
+    text-align: justify;
+}
+.container_project > .project_content > a{
+    color:rgb(189, 189, 189);
+    font-size: 14px;
+}
+img:hover{
+    scale: 1.1;
+}

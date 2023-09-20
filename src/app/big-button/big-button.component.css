@@ -1,0 +1,17 @@
+.container_big-button{
+    display:flex;
+    margin: 20px;
+}
+.container_big-button > button{
+    width: 350px;
+    min-width: 350px;
+    background-color: transparent;
+    border: none;
+}
+.container_big-button button > a > img{
+    width: 30vw;
+    padding: 20px;
+}
+button:hover{
+    scale: 1.05;
+}
