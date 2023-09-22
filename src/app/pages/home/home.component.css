@@ -6,3 +6,9 @@
     justify-content: space-around;
     align-items: center;
 }
+@media (max-width:600px){
+    .container_home{
+        display:flex;
+        flex-direction: column;
+    }
+}

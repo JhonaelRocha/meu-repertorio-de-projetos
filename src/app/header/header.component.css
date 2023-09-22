@@ -8,8 +8,8 @@
     background-color: white;
 }
 .container_header > .logo > a > img{
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
 }
 .container_header > .logo > a > img:hover{
     scale: 1.05;
@@ -24,8 +24,9 @@
 }
 .container_header > .contatos > ul > li{
     list-style-type: none;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    
 }
 .container_header > .contatos > ul > li:hover{
     scale: 1.05;
@@ -33,4 +34,12 @@
 .container_header > .contatos > ul > li > a {
     color: black;
     text-decoration: none;
+    
+}
+@media (max-width:700px){
+    
+    .container_header > .contatos{
+        width: 50%;
+        margin-right: 20% ;
+    }
 }

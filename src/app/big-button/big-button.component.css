@@ -2,16 +2,24 @@
     display:flex;
     margin: 20px;
 }
+.container_big-button{
+    width: 30vw;
+}
 .container_big-button > button{
-    width: 350px;
-    min-width: 350px;
+    width: 100%;
+    min-width: 100%;
     background-color: transparent;
     border: none;
 }
 .container_big-button button > a > img{
-    width: 30vw;
+    width: 100%;
     padding: 20px;
 }
 button:hover{
     scale: 1.05;
+}
+@media (max-width:600px){
+    .container_big-button{
+        width: 200px;
+    }
 }

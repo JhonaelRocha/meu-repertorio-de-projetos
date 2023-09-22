@@ -17,7 +17,7 @@
     border-radius: 10px;
 }
 .container_unity-project-card > .unity-project-card_texto{
-    width: 40%;
+    width: 80%;
 }
 .container_unity-project-card > .unity-project-card_texto > h1{
     text-align: center;
@@ -47,10 +47,18 @@ button > a{
 .status{
     margin-top: 10px;
     color: red;
+    width: 80%;
+    text-align: center;
 }
 img:hover{
     scale: 1.2;
 }
 .container_unity-project-card > .unity-project-card_download:hover{
     scale: 1.05;
+}
+@media (max-width: 600px){
+    .container_unity-project-card > .unity-project-card_image{
+        grid-template-columns: 1fr;
+        width: 80%;
+    }
 }

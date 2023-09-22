@@ -8,12 +8,16 @@
 .container_project > .project_image{
     width: 500px;
 }
+.container_project > .project_image{
+    width: 50%;
+    border-radius: 10px;
+}
 .container_project > .project_image > img{
     width: 100%;
     border-radius: 10px;
 }
 .container_project > .project_content{
-    width: 400px;
+    width: 80%;
 }
 .container_project > .project_content > h1{
     text-align: center;
@@ -30,4 +34,14 @@
 }
 img:hover{
     scale: 1.1;
+}
+@media(max-width:700px){
+    .container_project > .project_image{
+        width: 70%;
+    }
+}
+@media(max-width:400px){
+    .container_project > .project_image{
+        width: 85%;
+    }
 }
