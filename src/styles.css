@@ -7,5 +7,6 @@
     font-family: sans-serif;
 }
 body{
-    background-color: #1E1E1E;
+    background: rgb(18,18,123);
+    background: radial-gradient(circle, rgba(18,18,123,1) 0%, rgba(0,0,0,1) 100%);
 }

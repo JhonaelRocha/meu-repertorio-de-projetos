@@ -5,7 +5,13 @@
     height: 50px;
     justify-content: space-between;
     padding: 5px;
-    background-color: white;
+    background-color: rgb(189, 189, 189);
+    box-shadow: 0px -6px 7px 10px rgba(255, 255, 255, 0.75);
+    -webkit-box-shadow: 0px -6px 7px 10px rgba(255, 255, 255, 0.75);
+    -moz-box-shadow: 0px -6px 7px 10px rgba(255, 255, 255, 0.75);
+    position: fixed;
+    z-index: 999;
+    top: 0;
 }
 .container_header > .logo > a > img{
     width: 30px;

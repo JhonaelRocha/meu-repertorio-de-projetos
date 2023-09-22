@@ -15,9 +15,14 @@
 .container_unity-project-card > .unity-project-card_image > img{
     width: 100%;
     border-radius: 10px;
+    transition: transform .7s;
+}
+img:hover{
+    transform: scale(1.2);
+    z-index: 500;
 }
 .container_unity-project-card > .unity-project-card_texto{
-    width: 80%;
+    width: 60%;
 }
 .container_unity-project-card > .unity-project-card_texto > h1{
     text-align: center;
@@ -50,9 +55,7 @@ button > a{
     width: 80%;
     text-align: center;
 }
-img:hover{
-    scale: 1.2;
-}
+
 .container_unity-project-card > .unity-project-card_download:hover{
     scale: 1.05;
 }

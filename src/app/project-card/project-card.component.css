@@ -17,10 +17,11 @@
     border-radius: 10px;
 }
 .container_project > .project_content{
-    width: 80%;
+    width: 60%;
 }
 .container_project > .project_content > h1{
     text-align: center;
+    margin-top: 30px;
 }
 .container_project > .project_content > h1:hover{
     scale: 1.05;
@@ -32,8 +33,14 @@
     color:rgb(189, 189, 189);
     font-size: 14px;
 }
+.container_project > .project_image{
+    width: 500px;
+}
+img{
+    transition: transform 1s;
+}
 img:hover{
-    scale: 1.1;
+    transform: scale(1.1);
 }
 @media(max-width:700px){
     .container_project > .project_image{
